@@ -21,7 +21,7 @@ header{
 .sidebar {
   position: fixed;
   top: -90%;
-  right: 15%;
+  right: 10%;
   width: 280px;
   height: fit-content;
   background: black;
@@ -121,7 +121,6 @@ nav{
   transition: 0.3s ease;
 }
 .menu:hover{
-  background: #0ffc03;
   color: #fff;
 }
 .logo{
