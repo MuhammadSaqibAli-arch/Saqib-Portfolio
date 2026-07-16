@@ -1,0 +1,268 @@
+/* ============================================
+   RESPONSIVE STYLES
+   Append this block to the END of your existing
+   CSS file. Nothing above needs to change.
+   ============================================ */
+
+/* ---------- Tablets & small laptops (≤992px) ---------- */
+@media (max-width: 992px) {
+  #home {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 25px;
+  }
+
+  .text p {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    
+  }
+
+  .right img {
+    width: 350px;
+    height: 350px;
+    margin: 0 0 20px 0;
+  }
+
+  .abtCont {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+.project{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.contact-info{
+    margin: 0px 40px;
+}
+.contactForm{
+    padding:  0px 40px;
+}
+  .aiders {
+    margin: 20px auto;
+  }
+}
+
+/* ---------- Tablets / large phones (≤768px) ---------- */
+@media (max-width: 875px) {
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid #0ffc03;
+    box-shadow: 0 5px 15px #0ffc03;
+    padding: 10px 0;
+  }
+
+  .links.active {
+    display: flex;
+  }
+
+  .links a {
+    display: block;
+    margin: 12px 0;
+  }
+
+  .cont {
+    display: none;
+  }
+
+  .left span {
+    font-size: 42px;
+  }
+  p strong{
+    font-size: 32px;
+  }
+
+  #typing {
+    font-size: 35px;
+  }
+#mern{
+    font-size: 20px;
+}
+  .left p {
+    font-size: 22px;
+  }
+
+  .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 12px;
+  }
+
+  .progress {
+    width: 50%;
+  }
+
+  .contact-form {
+    margin: 0px 30px;    
+  }
+
+  .project {
+    grid-template-columns:repeat(2,1fr) ;
+    justify-items: center;
+  }
+
+  .aiders {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .aiders img {
+    width: 100%;
+  }
+
+  .service-container {
+    padding: 30px 15px;
+    gap: 20px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-label {
+    font-size: 2.2rem;
+  }
+
+  .whatsapp-icon {
+    bottom: 15px;
+    right: 15px;
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+@media (max-width:1030px) {
+        .project{
+    grid-template-columns:repeat(2,1fr) ;
+    justify-items: center;
+  
+    }
+}
+@media (max-width:550px) {
+    .project{
+    grid-template-columns:repeat(2,1fr) ;
+    justify-items: center;
+  
+    }
+     .aiders {
+    width: 90%;
+    max-width: 350px;
+  }
+  .aiders .detail{
+    width: 85%;
+    font-size: 12px;
+  }
+    
+}
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 30px;
+    margin: 2px 0px 0px 12px;
+    /* padding: 10px; */
+  }
+  #home{
+    /* flex-direction: column-reverse; */
+  }
+  .left span {
+    font-size: 35px;
+  }
+
+  #typing {
+    font-size: 32px;
+  }
+
+  .left p {
+    font-size: 20px;
+  }
+
+  .text span {
+    font-size: 26px;
+  }
+
+  .text p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  #mern{
+    font-size: 16px;
+  }
+
+  .right img {
+    width: 350px;
+    height: 350px;
+  }
+
+  #btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding-top: 45px;
+  }
+
+  .about-text {
+    padding: 0 10px;
+  }
+
+  .about h3 {
+    font-size: 20px;
+  }
+
+  .progress {
+    width: 50%;
+  }
+
+  .service-box {
+    padding: 24px 18px;
+  }
+
+  .contact-label {
+    font-size: 1.7rem;
+  }
+
+  .contact-form {
+    padding: 22px;
+  }
+
+  .aiders p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .aiders .detail {
+    width: 70%;
+    font-size: 10px;
+    text-align: justify;
+  }
+  #footer{
+    font-size: 12px;
+  }
+}
