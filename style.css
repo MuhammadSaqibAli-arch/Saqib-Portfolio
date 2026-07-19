@@ -708,8 +708,9 @@ h3 .mern{
   right: 20px;
   background-color: #30ea27;
   color: white;
-  font-size: 30px;
-  padding: 14px;
+  font-size: 35px;
+  width: 85px;
+  padding: 20px;
   border-radius: 50%;
   text-align: center;
   z-index: 1000;
