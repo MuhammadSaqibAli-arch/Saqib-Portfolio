@@ -174,7 +174,6 @@ nav{
 #phone .material-symbols-outlined ,#me .material-symbols-outlined{
   font-size: 18px;
 }
-
 #phone:hover {
    color: #0ffc03;
     border: 2px solid #0ffc03;
@@ -709,8 +708,7 @@ h3 .mern{
   background-color: #30ea27;
   color: white;
   font-size: 35px;
-  width: 85px;
-  padding: 20px;
+  padding: 18px;
   border-radius: 50%;
   text-align: center;
   z-index: 1000;
