@@ -260,7 +260,41 @@ font-size: 20px;
     padding: 42px 12px;
     gap: 42px;
 }
+#speBtn{
+   padding: 8px 10px;
+    font-size: 16px;
+    background-color:black ;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0px 1px 18px #0ffc03;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    background-color: #0ffc03;
+   animation: beat 2.2s infinite;
+}
+#speBtn:hover{
+  animation-duration: 0s;
+}
 
+    @keyframes beat {
+      0% {
+        transform: scale(1) rotate(0deg);
+      }
+      25% {
+        transform: scale(1.2) rotate(0deg);
+      }
+      50% {
+        transform: scale(1) rotate(0deg);
+      }
+      75% {
+        transform: scale(1.2) rotate(0deg);
+      }
+      100% {
+        transform: scale(1) rotate(0deg);
+      }
+    }
 #btn{
     padding: 8px 10px;
     font-size: 16px;
