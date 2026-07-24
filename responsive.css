@@ -239,10 +239,10 @@
   }
 
   .progress {
-    width: 70%;
+    width: 100%;
   }
   .progress-perc{
-    right: 34%;
+    right: 10%;
   }
 
   .service-box {
