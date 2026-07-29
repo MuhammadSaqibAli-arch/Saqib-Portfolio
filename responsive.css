@@ -187,9 +187,10 @@
     /* padding: 10px; */
   }
   .left span {
-    font-size: 35px;
+    /* font-size: 45px; */
+    max-width: 90%;
   }
-  span .salam{
+  .salam{
     white-space: nowrap;
 
   }
