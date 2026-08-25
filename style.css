@@ -467,8 +467,8 @@ h3 .mern{
 }
 
 .html { width: 90%; background: var(--main-color); }
-.css { width: 75%; background: var(--main-color); }
-.js { width: 20%; background: var(--main-color); }
+.css { width: 85%; background: var(--main-color); }
+.js { width: 40%; background: var(--main-color); }
 .Gh{width:10%;background: var(--main-color);}
 /* .react { width: 70%; background: var(--main-color); }
 .node { width: 65%; background: #0ffc03; } */
