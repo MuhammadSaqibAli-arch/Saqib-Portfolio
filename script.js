@@ -33,6 +33,28 @@ function typeEffect() {
 
 typeEffect();
 
+// ── Active nav link on scroll ──────────────────────────────
+const sections = document.querySelectorAll("section[id], #home, #about, #skills, #projects, #services, #contact");
+const navLinks = document.querySelectorAll(".links a");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        navLinks.forEach((link) => {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === `#${entry.target.id}`
+          );
+        });
+      }
+    });
+  },
+  { threshold: 0.4 }
+);
+
+sections.forEach((s) => observer.observe(s));
+
 function openMenu() {
   document.getElementById("sidebar").classList.add("active");
    document.getElementById("overlay").classList.add("active");

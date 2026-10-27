@@ -90,11 +90,11 @@
     display: none;
   }
 
-  .left span {
-    font-size: 42px;
+  .left span.salam {
+    font-size: 38px;
   }
-  p strong{
-    font-size: 32px;
+  p strong {
+    font-size: 30px;
   }
 
   #typing {
@@ -123,7 +123,7 @@
   }
 
   .project {
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
 
@@ -221,9 +221,9 @@
     height: 350px;
   }
 
-  #btn {
+  .btn {
     font-size: 14px;
-    padding: 8px 14px;
+    padding: 9px 16px;
   }
 
   h2 {
